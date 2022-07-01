@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41580" started-at="2022-06-08T04:04:45Z" finished-at="2022-06-08T04:05:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41580" started-at="2022-06-08T04:04:45Z" finished-at="2022-06-08T04:05:27Z">
+      <class name="com.qa.SeleniumFramework.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.SeleniumFramework.test.HomePageTest@5276e6b0]" name="setUp" is-config="true" duration-ms="8267" started-at="2022-06-08T04:04:45Z" finished-at="2022-06-08T04:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageSetup()[pri:0, instance:com.qa.SeleniumFramework.test.HomePageTest@5276e6b0]" name="homePageSetup" is-config="true" duration-ms="720" started-at="2022-06-08T04:04:54Z" finished-at="2022-06-08T04:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageSetup -->
+        <test-method status="PASS" signature="validateHomePageTitle()[pri:1, instance:com.qa.SeleniumFramework.test.HomePageTest@5276e6b0]" name="validateHomePageTitle" duration-ms="10301" started-at="2022-06-08T04:04:54Z" finished-at="2022-06-08T04:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitle -->
+        <test-method status="PASS" signature="navigateToProductionModule()[pri:2, instance:com.qa.SeleniumFramework.test.HomePageTest@5276e6b0]" name="navigateToProductionModule" duration-ms="21237" started-at="2022-06-08T04:05:05Z" finished-at="2022-06-08T04:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProductionModule -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.SeleniumFramework.test.HomePageTest@5276e6b0]" name="tearDown" is-config="true" duration-ms="1029" started-at="2022-06-08T04:05:26Z" finished-at="2022-06-08T04:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.SeleniumFramework.test.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
