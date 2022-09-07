@@ -1,5 +1,6 @@
 package com.qa.SeleniumFramework.pages;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -47,7 +48,7 @@ public class Login extends BasePage
 		elementUtil.doActionsSendKeys(emailId, un);
 		elementUtil.doActionsSendKeys(password, pwd);
 		elementUtil.doActionsClick(signINButton);
-
+		
 		try 
 		{
 		

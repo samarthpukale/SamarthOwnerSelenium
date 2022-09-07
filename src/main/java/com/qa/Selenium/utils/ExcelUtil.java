@@ -1,5 +1,6 @@
 package com.qa.Selenium.utils;
 
-public class ExcelUtil {
+public class ExcelUtil 
+{
 
 }

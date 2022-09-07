@@ -5,8 +5,8 @@
     <classes>
       <class name="com.qa.SeleniumFramework.test.HomePageTest">
         <methods>
-          <include name="validateHomePageTitle"/>
           <include name="setUp"/>
+          <include name="navigateToProductionModule"/>
           <include name="homePageSetup"/>
           <include name="tearDown"/>
         </methods>

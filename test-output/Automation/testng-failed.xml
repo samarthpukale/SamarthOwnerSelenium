@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Automation]">
+  <listeners>
+    <listener class-name="com.qa.SeleniumFramework.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="2" name="Home Page Test(failed)">
+    <classes>
+      <class name="com.qa.SeleniumFramework.test.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="navigateToProductionModule"/>
+          <include name="homePageSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.SeleniumFramework.test.HomePageTest -->
+    </classes>
+  </test> <!-- Home Page Test(failed) -->
+</suite> <!-- Failed suite [Automation] -->

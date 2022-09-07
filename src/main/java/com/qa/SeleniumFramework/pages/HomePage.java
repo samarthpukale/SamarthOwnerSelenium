@@ -2,11 +2,21 @@ package com.qa.SeleniumFramework.pages;
 
 import static org.testng.Assert.expectThrows;
 
+import java.io.File;
+import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.asserts.Assertion;
 import org.testng.asserts.SoftAssert;
@@ -31,12 +41,16 @@ public class HomePage extends BasePage
 	{
 		this.driver=driver;
 		elementUtil=new ElementUtil(this.driver);
+		
 	}
 	/**
 	 * This Method will get the Title of the Home Page
 	 * @return Will Return Title of the Home Page
 	 * @throws InterruptedException 
 	 */
+	
+	
+
 	public String getHomePageTitle()
 	{
 				
@@ -63,6 +77,10 @@ public class HomePage extends BasePage
 		By ModuleName = By.xpath(modulename);
 		elementUtil.getElement(ModuleName).click();		
 		
+		
+		
+		
+		
 	//	driver.findElement(By.xpath(modulename)).click();		
 		
 	}
@@ -83,6 +101,8 @@ public class HomePage extends BasePage
 	
 	public void HandleWindows()
 	{
+		
+		
 		 
 		Set<String> windows = driver.getWindowHandles();
 		Iterator<String> windowid = windows.iterator();
